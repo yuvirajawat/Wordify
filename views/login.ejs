@@ -1,0 +1,40 @@
+<%- include("partials/header-without-nav") -%> 
+<div class="container-form mt-5">
+    <h1>Log In !</h1>  
+      <div class="col-sm-8">
+        <div class="card">
+          <div class="card-body">
+  
+            <!-- Makes POST request to /login route -->
+            <form action="/login" method="POST">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" required="true" class="form-control" name="username">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" required="true" class="form-control" name="password">
+              </div>
+              <button type="submit" class="btn btn-dark">Log in</button>
+            </form>
+  
+          </div>
+        </div>
+      </div>
+  <!--goggle oAuth 2.0-->
+      <!-- <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <a class="btn btn-block col-sm-4" href="/auth/google" role="button">
+              <i class="fab fa-google"></i>
+              Sign In with Google
+            </a>
+          </div>
+        </div>
+      </div> -->
+      <form action ="/signup" method="GET">
+        <button type="submit" class="btn btn-dark">Not an user? Sign Up</button>
+    </form>
+  
+  </div>
+  <%- include("partials/footer") -%> 

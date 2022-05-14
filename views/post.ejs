@@ -1,0 +1,19 @@
+<%- include("partials/header") -%> 
+<div class="post-container">
+    <div class="post-desc-home">
+        <h3><%=post.postTitle%></h3>
+        <p><i class="fas fa-pen-fancy"></i>  <%=post.writer%></p>
+    </div>
+    <p><%=post.postBody%></p>
+    <% if (curUser == post.writer) { %>
+    <div class="actionBtn">
+        <form action="/edit/<%=post._id%>" method="POST">
+            <button class="btn-edit btn btn-warning" type="submit">Edit</button>
+        </form>
+        <form method="POST" action="/delete/<%=post._id%>">
+            <button class="btn-delete btn btn-danger" type="submit" >Delete</button>
+        </form>
+    </div>
+</div>
+<% } %>
+<%- include("partials/footer") -%> 

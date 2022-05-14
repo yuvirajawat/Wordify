@@ -1,0 +1,21 @@
+<%- include("partials/header") -%> 
+<h1>Welcome <%=user%> !</h1>
+<p>The best ideas can change who we are,
+    We’re an open platform where readers come to find 
+    insightful and dynamic thinking. Here, expert and 
+    undiscovered voices alike dive into the heart of any 
+    topic and bring new ideas to the surface. Our purpose 
+    is to spread these ideas and deepen understanding of the
+    world. Discover stories, thinking, and expertise from writers
+    on any topic.
+</p>
+<hr>
+<%posts.forEach(element => {%>
+            <div class="post-desc-home">
+            <h3><%=element.postTitle%> </h3>
+            <p><i class="fas fa-pen-fancy"></i>  <%= element.writer %> </p>
+            </div>
+            <p><%=element.postBody.slice(0,250)+"...."%><a href="/posts/<%=element._id%>">read more</a></p>
+    <hr>
+<% } );%>
+<%- include("partials/footer") -%> 
