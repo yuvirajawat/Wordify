@@ -25,4 +25,3 @@ performed on mongoDB Atlas cluster and data validated using mongoose. Implemente
 5. Authentication: Passport.js, passport-local
 6. Session cookies: express-session
    
-![alt text](https://github.com/yuvirajawat/Wordify/blob/main/public/logo.png?raw=true)
