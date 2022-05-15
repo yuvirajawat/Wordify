@@ -9,7 +9,6 @@ const ejs = require("ejs");
 const _=require("lodash");
 const app = express();
 const mongoose=require("mongoose");
-const { string } = require("joi");
 app.set('view engine', 'ejs');
 // to get values from html form
 app.use(bodyParser.urlencoded({extended: true}));
