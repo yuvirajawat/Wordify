@@ -16,7 +16,8 @@ performed on mongoDB Atlas cluster and data validated using mongoose. Implemente
 8. User can read all posts, edit and delete self composed posts which user can find under my articles page.
 9. On Logout user request is marked unauthorised and redirected to the sign up landing page.
 
-# TECH
+# Tech
+
 1. Backend: node.js and express
 2. Frontend: HTML5, CSS3, JavaScript, EJS
 3. Database: mongoDB
@@ -24,3 +25,4 @@ performed on mongoDB Atlas cluster and data validated using mongoose. Implemente
 5. Authentication: Passport.js, passport-local
 6. Session cookies: express-session
    
+![alt text](https://github.com/yuvirajawat/Wordify/blob/main/logo.png?raw=true)
