@@ -142,7 +142,7 @@ app.post("/compose",(req,res)=>{
   post.save((err)=>{
     if(!err)
     {
-      res.redirect("/home");
+      res.redirect("/myposts");
     }
   });
 });
@@ -182,14 +182,14 @@ app.post("/update/:id",(req,res)=>{
   Post.findOneAndUpdate({_id:postId},{postTitle:postTitle,postBody:postBody},{new:true},(err)=>{
     if(!err){console.log("updated successfuly");}
   });
-  res.redirect("/home");
+  res.redirect("/myposts");
 });
 //delete post
 app.post("/delete/:id",(req,res)=>{
   const postId=req.params.id;
   Post.findOneAndDelete({_id:postId},(err)=>{
     if(!err){
-      res.redirect("/home");
+      res.redirect("/myposts");
     }
   });
 });

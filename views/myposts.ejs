@@ -1,6 +1,9 @@
 <%- include("partials/header") -%> 
 <h1>Your Articles</h1>
 <hr>
+<% if(posts.length == 0){%>
+<img src="/no-articles.svg" alt="article-img" class="no-article"/>
+<% } %> 
 <%posts.forEach(element => {%>
     <h3><%=element.postTitle%></h3>
     <p><%=element.postBody.slice(0,250)+"...."%><a href="/posts/<%=element._id%>">read more</a></p>
