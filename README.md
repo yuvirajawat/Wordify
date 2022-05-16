@@ -6,7 +6,7 @@ Designed and developed a publication based full stack web application that serve
 
 Please follow the link below about section or follow link below
 
-<a href="https://www.youtube.com/watch?v=yfBLWYz0f-8">Demo</a>
+<a href="https://www.youtube.com/watch?v=yfBLWYz0f-8">Click here for Demo</a>
 
 # Features
 
