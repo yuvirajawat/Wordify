@@ -25,4 +25,13 @@ performed on mongoDB Atlas cluster and data validated using mongoose. Implemente
 5. Authentication: Passport.js, passport-local
 6. Session cookies: express-session
    
+# Screenshots
+
+1. Landing Page: sign up
+
+<img 
+    src="screenshots/signup.png" 
+    width="75%" 
+    height="100%"
+/>
    
