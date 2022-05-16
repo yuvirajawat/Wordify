@@ -27,11 +27,81 @@ performed on mongoDB Atlas cluster and data validated using mongoose. Implemente
    
 # Screenshots
 
-1. Landing Page: sign up
+1. sign up page: user can create profile 
 
 <img 
     src="screenshots/signup.png" 
     width="75%" 
     height="100%"
 />
+
+2. Login page:
+
+<img 
+    src="screenshots/login.png" 
+    width="75%" 
+    height="100%"
+/>
+
+3. Home page: User welcomed with username and listed all articles
+
+<img 
+    src="screenshots/home.png" 
+    width="75%" 
+    height="100%"
+/>
+
+4. About Page:
+
+<img 
+    src="screenshots/about.png" 
+    width="75%" 
+    height="100%"
+/>
+
+5. My Posts Page:
+
+On Zero Articles Published:
+
+<img 
+    src="screenshots/post-blank.png" 
+    width="75%" 
+    height="100%"
+/>
+
+
+On Some Articles Published:
+
+<img 
+    src="screenshots/my-posts.png" 
+    width="75%" 
+    height="100%"
+/>
+
+6. Compose Page: on compose redirected to my-posts page.
+
+<img 
+    src="screenshots/compose.png" 
+    width="75%" 
+    height="100%"
+/>
+
+7. Post Page:
+
+If Written by user:
+<img 
+    src="screenshots/post.png" 
+    width="75%" 
+    height="100%"
+/>
+
+Other person's post: Can't edit and delete.
+<img 
+    src="screenshots/other-user-post.png" 
+    width="75%" 
+    height="100%"
+/>
+
+
+
    
