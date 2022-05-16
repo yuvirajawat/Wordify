@@ -89,6 +89,7 @@ On Some Articles Published:
 7. Post Page:
 
 If Written by user:
+
 <img 
     src="screenshots/post.png" 
     width="75%" 
@@ -96,6 +97,7 @@ If Written by user:
 />
 
 Other person's post: Can't edit and delete.
+
 <img 
     src="screenshots/other-user-post.png" 
     width="75%" 
