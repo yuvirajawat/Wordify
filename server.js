@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 // to get values from html form
 app.use(bodyParser.urlencoded({extended: true}));
 //static css files on server
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname,"public")));
 
 app.use(session({
   secret:process.env.SECRET,
